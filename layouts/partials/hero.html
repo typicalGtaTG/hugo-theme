@@ -2,7 +2,7 @@
   {{ $authorName := .Site.Params.author }}
   {{ with .Site.Params.authorImage }}
   <div class="w-48 h-48 rounded-full mb-6 bg-red-100">
-    <img src="{{.}}" class="w-full p-2 h-full object-contain" alt="{{ $authorName }}" />
+    <img src="{{.}}" class="w-full p-2 rounded-full object-contain" alt="{{ $authorName }}" />
   </div>
   {{ end }}
 
@@ -39,7 +39,7 @@
     rel="noopener noreferrer"
     target="_blank"
     class="px-6 py-4 rounded-full font-semibold text-lg bg-black text-white hover:bg-gray-800 transition-colors dark:bg-white dark:text-black dark:hover:bg-gray-200"
-    >Talk to me</a
+    >Contact me</a
   >
   {{ end }}
 </section>
